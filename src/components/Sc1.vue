@@ -1,6 +1,6 @@
 <template>
   <div class="sc1">
-    SC1
+    SC1页面
   </div>
 </template>
 
