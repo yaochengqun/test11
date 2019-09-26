@@ -7,6 +7,8 @@ import Search from '@/components/Search'
 import NotFound from '@/components/NotFound'
 import Demo from '@/components/ScopedDemo'
 
+const ImportAbc = () => import('@/components/Abc')
+
 Vue.use(Router)
 
 export default new Router({
@@ -30,6 +32,11 @@ export default new Router({
           path: '/demo',
           name: 'Demo',
           component: Demo
+        },
+        {
+          path: '/abc',
+          name: 'Abc',
+          component: ImportAbc
         }
       ],
       redirect: '/home'
